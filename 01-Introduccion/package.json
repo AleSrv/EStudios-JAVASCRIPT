@@ -1,0 +1,17 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "practicando node",
+  "main": "index.js",
+  "scripts": {
+    "mensaje": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primero",
+    "node",
+    "npm"
+  ],
+  "author": "ale f",
+  "license": "ISC"
+}

@@ -1,0 +1,3 @@
+{"level":"error","message":"ReferenceError: fmiErrorpersonalizado is not defined"}
+{"level":"error","message":"Error: Este es mi mensaje personalizado"}
+{"level":"error","message":"ReferenceError: fmiErrorpersonalizado is not defined"}
