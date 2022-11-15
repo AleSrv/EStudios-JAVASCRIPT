@@ -1,4 +1,3 @@
-
 class Estudiante {
     nombre = "Alex"
     asignaturas = ["Javascript", "HTML", "CSS"]
