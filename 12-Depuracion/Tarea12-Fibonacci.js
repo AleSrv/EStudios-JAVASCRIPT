@@ -1,5 +1,3 @@
-
-
 function Fibonnaci(num){
     let i = 0
     let Resultado = [1]
