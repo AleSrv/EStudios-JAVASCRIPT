@@ -10,4 +10,4 @@ function Fibonnaci(num){
     return Resultado
 }
 
-Fibonnaci(6)
+console.log(Fibonnaci(12))
