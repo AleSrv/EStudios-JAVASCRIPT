@@ -1,5 +1,3 @@
-
-
 function Fibonnaci(num){
     let i = 0
     let Resultado = [1]
@@ -12,4 +10,4 @@ function Fibonnaci(num){
     return Resultado
 }
 
-Fibonnaci(6)
+console.log(Fibonnaci(12))
