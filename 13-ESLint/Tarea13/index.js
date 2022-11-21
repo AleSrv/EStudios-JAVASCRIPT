@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const nombre = "Gorka"
 const apellido = 'Villar'
 const estudiante = nombre.concat(` `).concat(apellido)
@@ -22,6 +21,3 @@ const finalApellido = apellido.substring(apellido.length - 1, apellido.length)
 const estudianteSinEspacios = estudiante.replace(/ /g, '')
 
 const nombreEnEstudiante = estudiante.includes(nombre)
-=======
-
->>>>>>> f4035141abe2a2b09d333f60aca0f01abdbf66e1
