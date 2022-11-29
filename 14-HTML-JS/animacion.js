@@ -1,3 +1,3 @@
 new TypeIt("#myElement", {
-    strings: "Nicolas es un pelotudo de mierda",
-  }).go();
+  strings: "Esta libreria la obtenemos de https://www.typeitjs.com",
+}).go();
