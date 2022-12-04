@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>preventDefault example</title>
+
+<script type="text/javascript">
+
+function checkName(evt) {
+var charCode = evt.charCode;
+
+  if (charCode != 0) {
+    if (charCode < 97 || charCode > 122) {
+      evt.preventDefault();
+      alert("Por favor usa sólo letras minúsculas." + "\n"
+            + "charCode: " + charCode + "\n"
+      );
+    }
+  }
+}
+
+</script>
+</head>
+
+<body>
+
+<p>Por favor entra tu nombre en letras minúsculas solamente.</p>
+<form>
+<input type="text" onkeypress="checkName(event);"/>
+</form>
+
+</body>
+</html>

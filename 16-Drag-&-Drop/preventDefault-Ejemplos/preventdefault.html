@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>ejemplo de preventDefault</title>
+
+<script type="text/javascript">
+
+function stopDefAction(evt) {
+  evt.preventDefault();
+}
+</script>
+</head>
+
+<body>
+
+<p>Por favor, haz clic sobre la caja de selección.</p>
+
+<form>
+<input type="checkbox" onclick="stopDefAction(event);"/>
+<label for="checkbox">Selección</label>
+</form>
+
+</body>
+</html>
