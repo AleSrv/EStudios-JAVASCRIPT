@@ -21,3 +21,13 @@
     position: absolute;
     left: -100vw;
 }
+
+.papelera {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 15px;
+    overflow: hidden;
+    justify-content: center;
+  }
