@@ -1,23 +1,44 @@
-let marca1,marca2, map;
+let markers, map;
 
 function initMap() {
-    // console.log("Inicializando mapa")
-    const tailandia = {lat: 7.998875440632191, lng: 98.29393318105222 }
-    const newYork = {lat: 40.74876558983263, lgn: -73.98602918400358} 
+  const posicion = {
+    lat: -25.363,
+    lng: 131.044,
+  };
 
-    map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 4,
-        center: tailandia
-    })
+  map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: posicion,
+  });
 
-    marca1 = new google.maps.Marker({
-        position: tailandia,
-        map,
-        title: "Tailandia"
+  markers.push(
+    new google.maps.Marker({
+      position: {
+        lat: 43.288773445332524,
+        lng: -2.163845628766325,
+      },
+      map,
+      title: "Zarautz",
     })
-    marca2 = new google.maps.Marker({
-        position: newYork,
-        map,
-        title: "New York"
+  );
+  markers.push(
+    new google.maps.Marker({
+      position: {
+        lat: 36.164983935422484,
+        lng: -86.78260332112534,
+      },
+      map,
+      title: "Nashville",
     })
+  );
+  markers.push(
+    new google.maps.Marker({
+      position: {
+        lat: 36.242150706885596,
+        lng: -6.0775131009957715,
+      },
+      map,
+      title: "El Palmar",
+    })
+  );
 }
