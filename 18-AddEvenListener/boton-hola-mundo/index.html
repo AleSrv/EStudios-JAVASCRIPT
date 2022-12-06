@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boton Hola Mundo</title>
+</head>
+<body>
+    <button>click</button>
+    <!-- OPCION 1 -->
+    <!-- <script>
+        const button = document.querySelector("button");
+        button.addEventListener("click", function() {
+            alert("Hola Mundo 1!");
+        });
+    </script> -->
+    <!-- OPCION 2 -->
+    <!-- <script>
+        const button = document.querySelector("button");
+        function action() {
+            alert("Hola Mundo 2!");
+        };
+        button.addEventListener("click", action);
+    </script> -->
+    <!-- MEJOR OPCION 3 FLECHA -->
+<script>
+    const button = document.querySelector("button");
+    const action = () => alert("Hola Mundo 3!");
+    button.addEventListener("click", action);
+</script>
+</body>
+</html>

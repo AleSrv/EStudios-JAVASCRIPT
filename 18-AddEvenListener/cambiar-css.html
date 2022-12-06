@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Saludar</button>
+
+<style>
+  .red { background: red }
+</style>
+
+<script>
+const button = document.querySelector("button");
+const action = () => alert("Hello!");
+const toggle = () => button.classList.toggle("red");
+
+button.addEventListener("click", action);         // Hello message
+button.addEventListener("click", toggle);         // Add/remove red CSS
+button.removeEventListener("click", action);      // Delete listener
+</script>
+</body>
+</html>
+
+<!-- preventDefault -->

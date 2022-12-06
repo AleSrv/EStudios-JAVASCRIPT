@@ -1,0 +1,45 @@
+/* * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+} */
+
+body {
+	background: black;
+	color: #fff;
+}
+
+.titulo{
+    background-color: black;
+    text-align: center;
+}
+
+.container{
+    background-color: black;
+    /* grid */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+
+    /* flex  */
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    background-color: rgb(34, 28, 28);
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pieza{
+    background-color: #17234e;
+    width: 200px;
+    height: 200px;
+    /* flex para centrar texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /**/
+}
