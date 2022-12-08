@@ -18,6 +18,21 @@ function factorial(a){
     return factorial;
 }
 
+// function factorial(n) {
+//     if (n === 1) {
+//         // la base de la recursión: el factorial de 1 es 1
+//         return 1;
+//     } else {
+//         // la recursión: el factorial de n es n multiplicado por el factorial de n-1
+//         return n * factorial(n - 1);
+//     }
+// }
+
+// // cálculo del factorial de 5
+// let resultado = factorial(5);
+// // resultado es 120 (5 * 4 * 3 * 2 * 1)
+
+
 module.exports = {
     suma,
     multiplica,
